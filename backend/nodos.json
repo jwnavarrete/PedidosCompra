@@ -1,0 +1,53 @@
+{
+    "idNodoClasif1": 269,
+    "codigo": "02000000",
+    "descripcion": "CREMA FACIALES",
+    "nivel": 1,
+    "activo": "S",
+    "idPadre": null,
+    "lineaConsumo": null,
+    "children": [
+      {
+        "idNodoClasif1": 270,
+        "codigo": "02010000",
+        "descripcion": "CREMA FACIALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 269,
+        "lineaConsumo": null,
+        "children": [
+          {
+            "idNodoClasif1": 271,
+            "codigo": "02010100",
+            "descripcion": "CREMA FACIALES",
+            "nivel": 3,
+            "activo": "S",
+            "idPadre": 270,
+            "lineaConsumo": null,
+            "children": [
+              {
+                "idNodoClasif1": 272,
+                "codigo": "02010101",
+                "descripcion": "CREMA FACIALES",
+                "nivel": 4,
+                "activo": "S",
+                "idPadre": 271,
+                "lineaConsumo": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "idNodoClasif1": 279,
+        "codigo": "02PU0000",
+        "descripcion": "PUBLICIDAD",
+        "nivel": 2,
+        "activo": "N",
+        "idPadre": 269,
+        "lineaConsumo": null,
+        "children": []
+      }
+    ]
+  }

@@ -1,0 +1,2576 @@
+[
+    {
+        "idNodoClasif1": 269,
+        "codigo": "02000000",
+        "descripcion": "CREMA FACIALES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 1,
+        "codigo": "AB000000",
+        "descripcion": "ABLANDADORES DE CANAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 5,
+        "codigo": "AC000000",
+        "descripcion": "ACONDICIONADORES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 9,
+        "codigo": "AF000000",
+        "descripcion": "AFTER SHAVE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 13,
+        "codigo": "AG000000",
+        "descripcion": "ALGODONES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 17,
+        "codigo": "AL000000",
+        "descripcion": "ALCOHOL",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 21,
+        "codigo": "AM000000",
+        "descripcion": "AMPOLLAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 25,
+        "codigo": "AT000000",
+        "descripcion": "ACEITE TRATAMIENTO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 29,
+        "codigo": "BB000000",
+        "descripcion": "PRODUCTOS PARA BEBE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 33,
+        "codigo": "BR000000",
+        "descripcion": "BROCHAS DE MAQUILLAJE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 37,
+        "codigo": "BU000000",
+        "descripcion": "BISUTERIA",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 41,
+        "codigo": "CA000000",
+        "descripcion": "CREMA PARA CABELLO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 273,
+        "codigo": "CB000000",
+        "descripcion": "PRODUCTOS CAPILARES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 45,
+        "codigo": "CC000000",
+        "descripcion": "CEPILLOS PARA CABELLOS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 49,
+        "codigo": "CE000000",
+        "descripcion": "CERA CAPILAR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 53,
+        "codigo": "CL000000",
+        "descripcion": "PROTECTORES DE CALOR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 57,
+        "codigo": "CO000000",
+        "descripcion": "COLONIAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 61,
+        "codigo": "CP000000",
+        "descripcion": "CEPILLOS DENTALES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 65,
+        "codigo": "CR000000",
+        "descripcion": "CREMAS DE CUERPO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 69,
+        "codigo": "CT000000",
+        "descripcion": "COTONETES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 73,
+        "codigo": "DC000000",
+        "descripcion": "DECOLORANTE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 77,
+        "codigo": "DE000000",
+        "descripcion": "DESODORANTES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 81,
+        "codigo": "DL000000",
+        "descripcion": "PRODUCTOS PARA DEPILAR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 85,
+        "codigo": "DP000000",
+        "descripcion": "DEPORTIVO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 89,
+        "codigo": "DT000000",
+        "descripcion": "DECORATIVOS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 93,
+        "codigo": "EA000000",
+        "descripcion": "ESPUMA DE AFEITAR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 97,
+        "codigo": "EM000000",
+        "descripcion": "ESPONJAS DE MAQUILLAJE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 101,
+        "codigo": "ES000000",
+        "descripcion": "ESMALTES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 105,
+        "codigo": "EX000000",
+        "descripcion": "EXFOLIANTES ",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 109,
+        "codigo": "FI000000",
+        "descripcion": "FIJADORES DE CABELLO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 113,
+        "codigo": "GC000000",
+        "descripcion": "GEL DE CABELLO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 117,
+        "codigo": "JA000000",
+        "descripcion": "JABONES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 121,
+        "codigo": "KE000000",
+        "descripcion": "KERATINAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 125,
+        "codigo": "LE000000",
+        "descripcion": "LECHE ",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 129,
+        "codigo": "LP000000",
+        "descripcion": "LIQUIDOS DE PERMANENTE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 133,
+        "codigo": "MA000000",
+        "descripcion": "MAQUILLAJES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 137,
+        "codigo": "MC000000",
+        "descripcion": "MASAJEADORES CORPORALES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 141,
+        "codigo": "ML000000",
+        "descripcion": "MALETAS ORGANIZADORAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 145,
+        "codigo": "MO000000",
+        "descripcion": "MOÑOS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 149,
+        "codigo": "MT000000",
+        "descripcion": "MENTICOL",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 153,
+        "codigo": "MU000000",
+        "descripcion": "MOUSSE DE CABELLO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 157,
+        "codigo": "OX000000",
+        "descripcion": "OXIGENTAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 161,
+        "codigo": "PA000000",
+        "descripcion": "PAÑALES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 165,
+        "codigo": "PB000000",
+        "descripcion": "PRESTOBARBAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 169,
+        "codigo": "PC000000",
+        "descripcion": "PACKS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 173,
+        "codigo": "PD000000",
+        "descripcion": "PASTAS DENTALES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 177,
+        "codigo": "PF000000",
+        "descripcion": "PRODUCTOS FACIALES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 181,
+        "codigo": "PG000000",
+        "descripcion": "PRODUCTOS DE GABINETES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 185,
+        "codigo": "PH000000",
+        "descripcion": "PAPEL HIGENICO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 189,
+        "codigo": "PI000000",
+        "descripcion": "PILAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 193,
+        "codigo": "PR000000",
+        "descripcion": "PROMOCIONES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 197,
+        "codigo": "PS000000",
+        "descripcion": "PROTECTOR SOLAR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 201,
+        "codigo": "PT000000",
+        "descripcion": "PANTYS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 205,
+        "codigo": "PU000000",
+        "descripcion": "PRODUCTOS DE UÑA",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 209,
+        "codigo": "PV000000",
+        "descripcion": "PRODUCTOS VARIOS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 213,
+        "codigo": "PY000000",
+        "descripcion": "PESTAÑAS Y GOMAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 280,
+        "codigo": "PZ000000",
+        "descripcion": "PUBLICIDAD",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 217,
+        "codigo": "RI000000",
+        "descripcion": "PINZAS Y RIZADOR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 221,
+        "codigo": "RP000000",
+        "descripcion": "REPELENTES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 225,
+        "codigo": "SE000000",
+        "descripcion": "SERUM",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 229,
+        "codigo": "SH000000",
+        "descripcion": "SHAMPOO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 233,
+        "codigo": "SP000000",
+        "descripcion": "SPRAY DE COLORES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 237,
+        "codigo": "ST000000",
+        "descripcion": "SPLASH",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 241,
+        "codigo": "TA000000",
+        "descripcion": "TALCOS DE CUERPO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 245,
+        "codigo": "TC000000",
+        "descripcion": "TONICO CAPILAR",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 249,
+        "codigo": "TH000000",
+        "descripcion": "PROTECTORES DIARIOS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 253,
+        "codigo": "TI000000",
+        "descripcion": "TINTES",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 257,
+        "codigo": "TL000000",
+        "descripcion": "TALCOS DE PIE",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 261,
+        "codigo": "TO000000",
+        "descripcion": "TOALLAS SANITARIAS",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 265,
+        "codigo": "TP000000",
+        "descripcion": "TRATAMIENTO PARA CABELLO",
+        "nivel": 1,
+        "activo": "S",
+        "idPadre": null,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 2,
+        "codigo": "AB010000",
+        "descripcion": "ABLANDADORES DE CANAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 1,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 3,
+        "codigo": "AB010100",
+        "descripcion": "ABLANDADORES DE CANAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 2,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 4,
+        "codigo": "AB010101",
+        "descripcion": "ABLANDADORES DE CANAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 3,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 6,
+        "codigo": "AC010000",
+        "descripcion": "ACONDICIONADORES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 5,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 7,
+        "codigo": "AC010100",
+        "descripcion": "ACONDICIONADORES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 6,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 8,
+        "codigo": "AC010101",
+        "descripcion": "ACONDICIONADORES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 7,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 10,
+        "codigo": "AF010000",
+        "descripcion": "AFTER SHAVE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 9,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 11,
+        "codigo": "AF010100",
+        "descripcion": "AFTER SHAVE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 10,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 12,
+        "codigo": "AF010101",
+        "descripcion": "AFTER SHAVE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 11,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 14,
+        "codigo": "AG010000",
+        "descripcion": "ALGODONES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 13,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 15,
+        "codigo": "AG010100",
+        "descripcion": "ALGODONES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 14,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 16,
+        "codigo": "AG010101",
+        "descripcion": "ALGODONES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 15,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 18,
+        "codigo": "AL010000",
+        "descripcion": "ALCOHOL",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 17,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 19,
+        "codigo": "AL010100",
+        "descripcion": "ALCOHOL",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 18,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 20,
+        "codigo": "AL010101",
+        "descripcion": "ALCOHOL",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 19,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 22,
+        "codigo": "AM010000",
+        "descripcion": "AMPOLLAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 21,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 23,
+        "codigo": "AM010100",
+        "descripcion": "AMPOLLAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 22,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 24,
+        "codigo": "AM010101",
+        "descripcion": "AMPOLLAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 23,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 26,
+        "codigo": "AT010000",
+        "descripcion": "ACEITE TRATAMIENTO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 25,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 27,
+        "codigo": "AT010100",
+        "descripcion": "ACEITE TRATAMIENTO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 26,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 28,
+        "codigo": "AT010101",
+        "descripcion": "ACEITE TRATAMIENTO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 27,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 30,
+        "codigo": "BB010000",
+        "descripcion": "PRODUCTOS PARA BEBE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 29,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 31,
+        "codigo": "BB010100",
+        "descripcion": "PRODUCTOS PARA BEBE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 30,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 32,
+        "codigo": "BB010101",
+        "descripcion": "PRODUCTOS PARA BEBE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 31,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 34,
+        "codigo": "BR010000",
+        "descripcion": "BROCHAS DE MAQUILLAJE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 33,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 35,
+        "codigo": "BR010100",
+        "descripcion": "BROCHAS DE MAQUILLAJE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 34,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 36,
+        "codigo": "BR010101",
+        "descripcion": "BROCHAS DE MAQUILLAJE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 35,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 38,
+        "codigo": "BU010000",
+        "descripcion": "BISUTERIA",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 37,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 39,
+        "codigo": "BU010100",
+        "descripcion": "BISUTERIA",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 38,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 40,
+        "codigo": "BU010101",
+        "descripcion": "BISUTERIA",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 39,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 42,
+        "codigo": "CA010000",
+        "descripcion": "CREMA PARA CABELLO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 41,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 43,
+        "codigo": "CA010100",
+        "descripcion": "CREMA PARA CABELLO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 42,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 44,
+        "codigo": "CA010101",
+        "descripcion": "CREMA PARA CABELLO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 43,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 46,
+        "codigo": "CC010000",
+        "descripcion": "CEPILLOS PARA CABELLOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 45,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 47,
+        "codigo": "CC010100",
+        "descripcion": "CEPILLOS PARA CABELLOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 46,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 48,
+        "codigo": "CC010101",
+        "descripcion": "CEPILLOS PARA CABELLOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 47,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 50,
+        "codigo": "CE010000",
+        "descripcion": "CERA CAPILAR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 49,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 51,
+        "codigo": "CE010100",
+        "descripcion": "CERA CAPILAR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 50,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 52,
+        "codigo": "CE010101",
+        "descripcion": "CERA CAPILAR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 51,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 54,
+        "codigo": "CL010000",
+        "descripcion": "PROTECTORES DE CALOR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 53,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 55,
+        "codigo": "CL010100",
+        "descripcion": "PROTECTORES DE CALOR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 54,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 56,
+        "codigo": "CL010101",
+        "descripcion": "PROTECTORES DE CALOR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 55,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 58,
+        "codigo": "CO010000",
+        "descripcion": "COLONIAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 57,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 59,
+        "codigo": "CO010100",
+        "descripcion": "COLONIAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 58,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 60,
+        "codigo": "CO010101",
+        "descripcion": "COLONIAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 59,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 62,
+        "codigo": "CP010000",
+        "descripcion": "CEPILLOS DENTALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 61,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 63,
+        "codigo": "CP010100",
+        "descripcion": "CEPILLOS DENTALES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 62,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 64,
+        "codigo": "CP010101",
+        "descripcion": "CEPILLOS DENTALES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 63,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 66,
+        "codigo": "CR010000",
+        "descripcion": "CREMAS DE CUERPO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 65,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 67,
+        "codigo": "CR010100",
+        "descripcion": "CREMAS DE CUERPO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 66,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 68,
+        "codigo": "CR010101",
+        "descripcion": "CREMAS DE CUERPO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 67,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 70,
+        "codigo": "CT010000",
+        "descripcion": "COTONETES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 69,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 71,
+        "codigo": "CT010100",
+        "descripcion": "COTONETES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 70,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 72,
+        "codigo": "CT010101",
+        "descripcion": "COTONETES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 71,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 74,
+        "codigo": "DC010000",
+        "descripcion": "DECOLORANTE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 73,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 75,
+        "codigo": "DC010100",
+        "descripcion": "DECOLORANTE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 74,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 76,
+        "codigo": "DC010101",
+        "descripcion": "DECOLORANTE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 75,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 78,
+        "codigo": "DE010000",
+        "descripcion": "DESODORANTES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 77,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 79,
+        "codigo": "DE010100",
+        "descripcion": "DESODORANTES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 78,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 80,
+        "codigo": "DE010101",
+        "descripcion": "DESODORANTES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 79,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 82,
+        "codigo": "DL010000",
+        "descripcion": "PRODUCTOS PARA DEPILAR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 81,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 83,
+        "codigo": "DL010100",
+        "descripcion": "PRODUCTOS PARA DEPILAR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 82,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 84,
+        "codigo": "DL010101",
+        "descripcion": "PRODUCTOS PARA DEPILAR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 83,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 86,
+        "codigo": "DP010000",
+        "descripcion": "DEPORTIVO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 85,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 87,
+        "codigo": "DP010100",
+        "descripcion": "DEPORTIVO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 86,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 88,
+        "codigo": "DP010101",
+        "descripcion": "DEPORTIVO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 87,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 90,
+        "codigo": "DT010000",
+        "descripcion": "DECORATIVOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 89,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 91,
+        "codigo": "DT010100",
+        "descripcion": "DECORATIVOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 90,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 92,
+        "codigo": "DT010101",
+        "descripcion": "DECORATIVOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 91,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 94,
+        "codigo": "EA010000",
+        "descripcion": "ESPUMA DE AFEITAR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 93,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 95,
+        "codigo": "EA010100",
+        "descripcion": "ESPUMA DE AFEITAR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 94,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 96,
+        "codigo": "EA010101",
+        "descripcion": "ESPUMA DE AFEITAR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 95,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 98,
+        "codigo": "EM010000",
+        "descripcion": "ESPONJAS DE MAQUILLAJE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 97,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 99,
+        "codigo": "EM010100",
+        "descripcion": "ESPONJAS DE MAQUILLAJE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 98,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 100,
+        "codigo": "EM010101",
+        "descripcion": "ESPONJAS DE MAQUILLAJE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 99,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 102,
+        "codigo": "ES010000",
+        "descripcion": "ESMALTES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 101,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 103,
+        "codigo": "ES010100",
+        "descripcion": "ESMALTES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 102,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 104,
+        "codigo": "ES010101",
+        "descripcion": "ESMALTES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 103,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 106,
+        "codigo": "EX010000",
+        "descripcion": "EXFOLIANTES ",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 105,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 107,
+        "codigo": "EX010100",
+        "descripcion": "EXFOLIANTES ",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 106,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 108,
+        "codigo": "EX010101",
+        "descripcion": "EXFOLIANTES ",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 107,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 110,
+        "codigo": "FI010000",
+        "descripcion": "FIJADORES DE CABELLO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 109,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 111,
+        "codigo": "FI010100",
+        "descripcion": "FIJADORES DE CABELLO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 110,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 112,
+        "codigo": "FI010101",
+        "descripcion": "FIJADORES DE CABELLO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 111,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 114,
+        "codigo": "GC010000",
+        "descripcion": "GEL DE CABELLO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 113,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 115,
+        "codigo": "GC010100",
+        "descripcion": "GEL DE CABELLO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 114,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 116,
+        "codigo": "GC010101",
+        "descripcion": "GEL DE CABELLO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 115,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 118,
+        "codigo": "JA010000",
+        "descripcion": "JABONES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 117,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 119,
+        "codigo": "JA010100",
+        "descripcion": "JABONES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 118,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 120,
+        "codigo": "JA010101",
+        "descripcion": "JABONES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 119,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 122,
+        "codigo": "KE010000",
+        "descripcion": "KERATINAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 121,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 123,
+        "codigo": "KE010100",
+        "descripcion": "KERATINAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 122,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 124,
+        "codigo": "KE010101",
+        "descripcion": "KERATINAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 123,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 126,
+        "codigo": "LE010000",
+        "descripcion": "LECHE ",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 125,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 127,
+        "codigo": "LE010100",
+        "descripcion": "LECHE ",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 126,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 128,
+        "codigo": "LE010101",
+        "descripcion": "LECHE ",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 127,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 130,
+        "codigo": "LP010000",
+        "descripcion": "LIQUIDOS DE PERMANENTE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 129,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 131,
+        "codigo": "LP010100",
+        "descripcion": "LIQUIDOS DE PERMANENTE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 130,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 132,
+        "codigo": "LP010101",
+        "descripcion": "LIQUIDOS DE PERMANENTE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 131,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 134,
+        "codigo": "MA010000",
+        "descripcion": "MAQUILLAJES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 133,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 135,
+        "codigo": "MA010100",
+        "descripcion": "MAQUILLAJES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 134,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 136,
+        "codigo": "MA010101",
+        "descripcion": "MAQUILLAJES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 135,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 138,
+        "codigo": "MC010000",
+        "descripcion": "MASAJEADORES CORPORALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 137,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 139,
+        "codigo": "MC010100",
+        "descripcion": "MASAJEADORES CORPORALES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 138,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 140,
+        "codigo": "MC010101",
+        "descripcion": "MASAJEADORES CORPORALES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 139,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 142,
+        "codigo": "ML010000",
+        "descripcion": "MALETAS ORGANIZADORAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 141,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 143,
+        "codigo": "ML010100",
+        "descripcion": "MALETAS ORGANIZADORAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 142,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 144,
+        "codigo": "ML010101",
+        "descripcion": "MALETAS ORGANIZADORAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 143,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 146,
+        "codigo": "MO010000",
+        "descripcion": "MOÑOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 145,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 147,
+        "codigo": "MO010100",
+        "descripcion": "MOÑOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 146,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 148,
+        "codigo": "MO010101",
+        "descripcion": "MOÑOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 147,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 150,
+        "codigo": "MT010000",
+        "descripcion": "MENTICOL",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 149,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 151,
+        "codigo": "MT010100",
+        "descripcion": "MENTICOL",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 150,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 152,
+        "codigo": "MT010101",
+        "descripcion": "MENTICOL",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 151,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 154,
+        "codigo": "MU010000",
+        "descripcion": "MOUSSE DE CABELLO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 153,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 155,
+        "codigo": "MU010100",
+        "descripcion": "MOUSSE DE CABELLO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 154,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 156,
+        "codigo": "MU010101",
+        "descripcion": "MOUSSE DE CABELLO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 155,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 158,
+        "codigo": "OX010000",
+        "descripcion": "OXIGENTAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 157,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 159,
+        "codigo": "OX010100",
+        "descripcion": "OXIGENTAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 158,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 160,
+        "codigo": "OX010101",
+        "descripcion": "OXIGENTAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 159,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 162,
+        "codigo": "PA010000",
+        "descripcion": "PAÑALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 161,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 163,
+        "codigo": "PA010100",
+        "descripcion": "PAÑALES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 162,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 164,
+        "codigo": "PA010101",
+        "descripcion": "PAÑALES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 163,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 166,
+        "codigo": "PB010000",
+        "descripcion": "PRESTOBARBAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 165,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 167,
+        "codigo": "PB010100",
+        "descripcion": "PRESTOBARBAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 166,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 168,
+        "codigo": "PB010101",
+        "descripcion": "PRESTOBARBAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 167,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 170,
+        "codigo": "PC010000",
+        "descripcion": "PACKS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 169,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 171,
+        "codigo": "PC010100",
+        "descripcion": "PACKS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 170,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 172,
+        "codigo": "PC010101",
+        "descripcion": "PACKS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 171,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 174,
+        "codigo": "PD010000",
+        "descripcion": "PASTAS DENTALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 173,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 175,
+        "codigo": "PD010100",
+        "descripcion": "PASTAS DENTALES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 174,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 176,
+        "codigo": "PD010101",
+        "descripcion": "PASTAS DENTALES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 175,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 178,
+        "codigo": "PF010000",
+        "descripcion": "PRODUCTOS FACIALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 177,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 179,
+        "codigo": "PF010100",
+        "descripcion": "PRODUCTOS FACIALES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 178,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 180,
+        "codigo": "PF010101",
+        "descripcion": "PRODUCTOS FACIALES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 179,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 182,
+        "codigo": "PG010000",
+        "descripcion": "PRODUCTOS DE GABINETES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 181,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 183,
+        "codigo": "PG010100",
+        "descripcion": "PRODUCTOS DE GABINETES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 182,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 184,
+        "codigo": "PG010101",
+        "descripcion": "PRODUCTOS DE GABINETES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 183,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 186,
+        "codigo": "PH010000",
+        "descripcion": "PAPEL HIGENICO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 185,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 187,
+        "codigo": "PH010100",
+        "descripcion": "PAPEL HIGENICO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 186,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 188,
+        "codigo": "PH010101",
+        "descripcion": "PAPEL HIGENICO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 187,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 190,
+        "codigo": "PI010000",
+        "descripcion": "PILAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 189,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 191,
+        "codigo": "PI010100",
+        "descripcion": "PILAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 190,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 192,
+        "codigo": "PI010101",
+        "descripcion": "PILAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 191,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 194,
+        "codigo": "PR010000",
+        "descripcion": "PROMOCIONES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 193,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 195,
+        "codigo": "PR010100",
+        "descripcion": "PROMOCIONES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 194,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 196,
+        "codigo": "PR010101",
+        "descripcion": "PROMOCIONES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 195,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 198,
+        "codigo": "PS010000",
+        "descripcion": "PROTECTOR SOLAR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 197,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 199,
+        "codigo": "PS010100",
+        "descripcion": "PROTECTOR SOLAR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 198,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 200,
+        "codigo": "PS010101",
+        "descripcion": "PROTECTOR SOLAR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 199,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 202,
+        "codigo": "PT010000",
+        "descripcion": "PANTYS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 201,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 203,
+        "codigo": "PT010100",
+        "descripcion": "PANTYS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 202,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 204,
+        "codigo": "PT010101",
+        "descripcion": "PANTYS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 203,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 206,
+        "codigo": "PU010000",
+        "descripcion": "PRODUCTOS DE UÑA",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 205,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 207,
+        "codigo": "PU010100",
+        "descripcion": "PRODUCTOS DE UÑA",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 206,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 208,
+        "codigo": "PU010101",
+        "descripcion": "PRODUCTOS DE UÑA",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 207,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 210,
+        "codigo": "PV010000",
+        "descripcion": "PRODUCTOS VARIOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 209,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 211,
+        "codigo": "PV010100",
+        "descripcion": "PRODUCTOS VARIOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 210,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 212,
+        "codigo": "PV010101",
+        "descripcion": "PRODUCTOS VARIOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 211,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 214,
+        "codigo": "PY010000",
+        "descripcion": "PESTAÑAS Y GOMAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 213,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 215,
+        "codigo": "PY010100",
+        "descripcion": "PESTAÑAS Y GOMAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 214,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 216,
+        "codigo": "PY010101",
+        "descripcion": "PESTAÑAS Y GOMAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 215,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 218,
+        "codigo": "RI010000",
+        "descripcion": "PINZAS Y RIZADOR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 217,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 219,
+        "codigo": "RI010100",
+        "descripcion": "PINZAS Y RIZADOR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 218,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 220,
+        "codigo": "RI010101",
+        "descripcion": "PINZAS Y RIZADOR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 219,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 222,
+        "codigo": "RP010000",
+        "descripcion": "REPELENTES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 221,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 223,
+        "codigo": "RP010100",
+        "descripcion": "REPELENTES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 222,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 224,
+        "codigo": "RP010101",
+        "descripcion": "REPELENTES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 223,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 226,
+        "codigo": "SE010000",
+        "descripcion": "SERUM",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 225,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 227,
+        "codigo": "SE010100",
+        "descripcion": "SERUM",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 226,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 228,
+        "codigo": "SE010101",
+        "descripcion": "SERUM",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 227,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 230,
+        "codigo": "SH010000",
+        "descripcion": "SHAMPOO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 229,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 231,
+        "codigo": "SH010100",
+        "descripcion": "SHAMPOO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 230,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 232,
+        "codigo": "SH010101",
+        "descripcion": "SHAMPOO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 231,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 234,
+        "codigo": "SP010000",
+        "descripcion": "SPRAY DE COLORES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 233,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 235,
+        "codigo": "SP010100",
+        "descripcion": "SPRAY DE COLORES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 234,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 236,
+        "codigo": "SP010101",
+        "descripcion": "SPRAY DE COLORES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 235,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 238,
+        "codigo": "ST010000",
+        "descripcion": "SPLASH",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 237,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 239,
+        "codigo": "ST010100",
+        "descripcion": "SPLASH",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 238,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 240,
+        "codigo": "ST010101",
+        "descripcion": "SPLASH",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 239,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 242,
+        "codigo": "TA010000",
+        "descripcion": "TALCOS DE CUERPO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 241,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 243,
+        "codigo": "TA010100",
+        "descripcion": "TALCOS DE CUERPO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 242,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 244,
+        "codigo": "TA010101",
+        "descripcion": "TALCOS DE CUERPO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 243,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 246,
+        "codigo": "TC010000",
+        "descripcion": "TONICO CAPILAR",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 245,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 247,
+        "codigo": "TC010100",
+        "descripcion": "TONICO CAPILAR",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 246,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 248,
+        "codigo": "TC010101",
+        "descripcion": "TONICO CAPILAR",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 247,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 250,
+        "codigo": "TH010000",
+        "descripcion": "PROTECTORES DIARIOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 249,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 251,
+        "codigo": "TH010100",
+        "descripcion": "PROTECTORES DIARIOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 250,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 252,
+        "codigo": "TH010101",
+        "descripcion": "PROTECTORES DIARIOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 251,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 254,
+        "codigo": "TI010000",
+        "descripcion": "TINTES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 253,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 255,
+        "codigo": "TI010100",
+        "descripcion": "TINTES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 254,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 256,
+        "codigo": "TI010101",
+        "descripcion": "TINTES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 255,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 258,
+        "codigo": "TL010000",
+        "descripcion": "TALCOS DE PIE",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 257,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 259,
+        "codigo": "TL010100",
+        "descripcion": "TALCOS DE PIE",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 258,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 260,
+        "codigo": "TL010101",
+        "descripcion": "TALCOS DE PIE",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 259,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 262,
+        "codigo": "TO010000",
+        "descripcion": "TOALLAS SANITARIAS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 261,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 263,
+        "codigo": "TO010100",
+        "descripcion": "TOALLAS SANITARIAS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 262,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 264,
+        "codigo": "TO010101",
+        "descripcion": "TOALLAS SANITARIAS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 263,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 266,
+        "codigo": "TP010000",
+        "descripcion": "TRATAMIENTO PARA CABELLO",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 265,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 267,
+        "codigo": "TP010100",
+        "descripcion": "TRATAMIENTO PARA CABELLO",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 266,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 268,
+        "codigo": "TP010101",
+        "descripcion": "TRATAMIENTO PARA CABELLO",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 267,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 270,
+        "codigo": "02010000",
+        "descripcion": "CREMA FACIALES",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 269,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 279,
+        "codigo": "02PU0000",
+        "descripcion": "PUBLICIDAD",
+        "nivel": 2,
+        "activo": "N",
+        "idPadre": 269,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 271,
+        "codigo": "02010100",
+        "descripcion": "CREMA FACIALES",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 270,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 272,
+        "codigo": "02010101",
+        "descripcion": "CREMA FACIALES",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 271,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 274,
+        "codigo": "CB010000",
+        "descripcion": "CAPILARES ELECTRICOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 273,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 275,
+        "codigo": "CB010100",
+        "descripcion": "CAPILARES ELECTRICOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 274,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 276,
+        "codigo": "CB010101",
+        "descripcion": "CAPILARES ELECTRICOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 275,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 277,
+        "codigo": "CB010102",
+        "descripcion": "TENAZAS",
+        "nivel": 4,
+        "activo": "N",
+        "idPadre": 275,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 278,
+        "codigo": "CB010103",
+        "descripcion": "SECADORAS",
+        "nivel": 4,
+        "activo": "N",
+        "idPadre": 275,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 281,
+        "codigo": "PZPU0000",
+        "descripcion": "PUBLICIDAD",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 280,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 284,
+        "codigo": "PZPZ0000",
+        "descripcion": "ALQUILER ESPACIOS",
+        "nivel": 2,
+        "activo": "S",
+        "idPadre": 280,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 282,
+        "codigo": "PZPUPU00",
+        "descripcion": "PUBLICIDAD",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 281,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 283,
+        "codigo": "PZPUPUPU",
+        "descripcion": "PUBLICIDAD",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 282,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 285,
+        "codigo": "PZPZPZ00",
+        "descripcion": "ALQUILER ESPACIOS",
+        "nivel": 3,
+        "activo": "S",
+        "idPadre": 284,
+        "lineaConsumo": null
+    },
+    {
+        "idNodoClasif1": 286,
+        "codigo": "PZPZPZPZ",
+        "descripcion": "ALQUILER ESPACIOS",
+        "nivel": 4,
+        "activo": "S",
+        "idPadre": 285,
+        "lineaConsumo": null
+    }
+]

@@ -1,0 +1,3 @@
+dotnet publish --configuration Release --output C:/inetpub/PedidosCompraDires
+
+dotnet publish --configuration Release --output PedidosCompraApi

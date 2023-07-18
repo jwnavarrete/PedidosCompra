@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "P5XssEZftR2P7dFHetC6RupVpwe39dQxIneu0v70hGs=",
+  "Source": "app.neptuno.api",
+  "BasePath": "_content/app.neptuno.api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,20 @@
+   var groupedVentaDetalles = ventaDetalles
+                    .GroupBy(vd => new { vd.IdBodega, vd.IdProducto })
+                    .Select(group => new
+                    {
+                        IdBodega = group.Key.IdBodega,
+                        IdItem = group.Key.IdProducto,
+                        SumCantidadUnidad = group.Sum(vd => vd.CantidadUnidad)
+                    });
+
+
+
+
+var groupedVentaDetalles2 = from ventaDetalle in ventaDetalles 
+    group ventaDetalle by new { ventaDetalle.IdBodega, ventaDetalle.IdProducto } into groupResult
+    select new
+                                            {
+                                                IdBodega = groupResult.Key.IdBodega,
+                                                IdItem = groupResult.Key.IdProducto,
+                                                SumCantidadUnidad = groupResult.Sum(vd => vd.CantidadUnidad)
+                                            };

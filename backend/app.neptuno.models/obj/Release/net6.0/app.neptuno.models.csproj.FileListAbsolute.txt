@@ -1,0 +1,12 @@
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\bin\Release\net6.0\app.neptuno.models.deps.json
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\bin\Release\net6.0\app.neptuno.models.dll
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\bin\Release\net6.0\app.neptuno.models.pdb
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.csproj.AssemblyReference.cache
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.AssemblyInfoInputs.cache
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.AssemblyInfo.cs
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.csproj.CoreCompileInputs.cache
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.dll
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\refint\app.neptuno.models.dll
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\app.neptuno.models.pdb
+C:\Users\Jefferson.Anchundia\Documents\Visual Studio 2022\PedidosCompraDires\app.neptuno.models\obj\Release\net6.0\ref\app.neptuno.models.dll

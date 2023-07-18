@@ -1,0 +1,149 @@
+[
+    {
+        "idBodega": 1,
+        "codigo": "IS001",
+        "nombre": "MATRIZ",
+        "activo": "S",
+        "nombreCompleto": "[IS001] - MATRIZ"
+    },
+    {
+        "idBodega": 2,
+        "codigo": "IS002",
+        "nombre": "MULTIBODEGAS",
+        "activo": "S",
+        "nombreCompleto": "[IS002] - MULTIBODEGAS"
+    },
+    {
+        "idBodega": 3,
+        "codigo": "IS003",
+        "nombre": "PLAZA VICTORIA",
+        "activo": "S",
+        "nombreCompleto": "[IS003] - PLAZA VICTORIA"
+    },
+    {
+        "idBodega": 4,
+        "codigo": "IS004",
+        "nombre": "CALLE 13",
+        "activo": "S",
+        "nombreCompleto": "[IS004] - CALLE 13"
+    },
+    {
+        "idBodega": 5,
+        "codigo": "IS005",
+        "nombre": "CHONE",
+        "activo": "S",
+        "nombreCompleto": "[IS005] - CHONE"
+    },
+    {
+        "idBodega": 6,
+        "codigo": "IS006",
+        "nombre": "TARQUI",
+        "activo": "S",
+        "nombreCompleto": "[IS006] - TARQUI"
+    },
+    {
+        "idBodega": 7,
+        "codigo": "IS007",
+        "nombre": "TOSAGUA",
+        "activo": "S",
+        "nombreCompleto": "[IS007] - TOSAGUA"
+    },
+    {
+        "idBodega": 8,
+        "codigo": "IS008",
+        "nombre": "MONTECRISTI",
+        "activo": "S",
+        "nombreCompleto": "[IS008] - MONTECRISTI"
+    },
+    {
+        "idBodega": 9,
+        "codigo": "IS009",
+        "nombre": "AV.NUEVA",
+        "activo": "S",
+        "nombreCompleto": "[IS009] - AV.NUEVA"
+    },
+    {
+        "idBodega": 10,
+        "codigo": "IS010",
+        "nombre": "TAMARINDOS",
+        "activo": "S",
+        "nombreCompleto": "[IS010] - TAMARINDOS"
+    },
+    {
+        "idBodega": 11,
+        "codigo": "IS011",
+        "nombre": "SANTA ANA",
+        "activo": "S",
+        "nombreCompleto": "[IS011] - SANTA ANA"
+    },
+    {
+        "idBodega": 12,
+        "codigo": "IS012",
+        "nombre": "AV. MANABI",
+        "activo": "S",
+        "nombreCompleto": "[IS012] - AV. MANABI"
+    },
+    {
+        "idBodega": 13,
+        "codigo": "IS013",
+        "nombre": "ECU911",
+        "activo": "S",
+        "nombreCompleto": "[IS013] - ECU911"
+    },
+    {
+        "idBodega": 14,
+        "codigo": "IS014",
+        "nombre": "CONTENEDORES",
+        "activo": "S",
+        "nombreCompleto": "[IS014] - CONTENEDORES"
+    },
+    {
+        "idBodega": 15,
+        "codigo": "IS015",
+        "nombre": "CALCETA",
+        "activo": "S",
+        "nombreCompleto": "[IS015] - CALCETA"
+    },
+    {
+        "idBodega": 16,
+        "codigo": "IS016",
+        "nombre": "ROCAFUERTE",
+        "activo": "S",
+        "nombreCompleto": "[IS016] - ROCAFUERTE"
+    },
+    {
+        "idBodega": 17,
+        "codigo": "IS017",
+        "nombre": "CHILE",
+        "activo": "S",
+        "nombreCompleto": "[IS017] - CHILE"
+    },
+    {
+        "idBodega": 18,
+        "codigo": "IS018",
+        "nombre": "JIPIJAPA",
+        "activo": "S",
+        "nombreCompleto": "[IS018] - JIPIJAPA"
+    },
+    {
+        "idBodega": 19,
+        "codigo": "IS019",
+        "nombre": "AV. GUAYAQUIL",
+        "activo": "S",
+        "nombreCompleto": "[IS019] - AV. GUAYAQUIL"
+    },
+    {
+        "idBodega": 20,
+        "codigo": "IS020",
+        "nombre": "SAN MATEO",
+        "activo": "S",
+        "nombreCompleto": "[IS020] - SAN MATEO"
+    },
+    {
+        "idBodega": 21,
+        "codigo": "DEVOL",
+        "nombre": "BODEGA DEVOLUCIONES",
+        "activo": "S",
+        "nombreCompleto": "[DEVOL] - BODEGA DEVOLUCIONES"
+    }
+]

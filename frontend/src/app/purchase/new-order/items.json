@@ -1,0 +1,466 @@
+[
+    {
+        "idItem": 1128,
+        "descripcion": "BDF NV MEN A SHAVE BALSM NORMAL",
+        "codBarra": "8412300813006",
+        "precio": 11.2143,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 319,
+                "idBodega": 1,
+                "idItem": 1128,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20153,
+                "idBodega": 2,
+                "idItem": 1128,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30008,
+                "idBodega": 3,
+                "idItem": 1128,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39863,
+                "idBodega": 4,
+                "idItem": 1128,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 1129,
+        "descripcion": "BDF NV MEN A SHAVE BALSM SENSIT",
+        "codBarra": "8715200813061",
+        "precio": 11.2143,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 320,
+                "idBodega": 1,
+                "idItem": 1129,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20154,
+                "idBodega": 2,
+                "idItem": 1129,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30009,
+                "idBodega": 3,
+                "idItem": 1129,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39864,
+                "idBodega": 4,
+                "idItem": 1129,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 1130,
+        "descripcion": "BDF NV MEN A SHAVE LOCION DEEP",
+        "codBarra": "072140024017",
+        "precio": 11.2143,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 321,
+                "idBodega": 1,
+                "idItem": 1130,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20155,
+                "idBodega": 2,
+                "idItem": 1130,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30010,
+                "idBodega": 3,
+                "idItem": 1130,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39865,
+                "idBodega": 4,
+                "idItem": 1130,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 4535,
+        "descripcion": "DM OSSION AFTR SHAV COL MEDx300ML",
+        "codBarra": "8681701007653",
+        "precio": 7.5893,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 322,
+                "idBodega": 1,
+                "idItem": 4535,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20156,
+                "idBodega": 2,
+                "idItem": 4535,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 3,
+                "stockFraccion": 0,
+                "stockActual": 3,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30011,
+                "idBodega": 3,
+                "idItem": 4535,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39866,
+                "idBodega": 4,
+                "idItem": 4535,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 1,
+                "stockFraccion": 0,
+                "stockActual": 1,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 4536,
+        "descripcion": "DM OSSION AFTR SHAVE COL DOMx300ML",
+        "codBarra": "8681701007646",
+        "precio": 7.5893,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 323,
+                "idBodega": 1,
+                "idItem": 4536,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20157,
+                "idBodega": 2,
+                "idItem": 4536,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 3,
+                "stockFraccion": 0,
+                "stockActual": 3,
+                "ventaMes": 1,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30012,
+                "idBodega": 3,
+                "idItem": 4536,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 1,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39867,
+                "idBodega": 4,
+                "idItem": 4536,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 4543,
+        "descripcion": "DM OSSION PROF CREAM OCEANx400ML",
+        "codBarra": "8681701002993",
+        "precio": 7.5895,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 324,
+                "idBodega": 1,
+                "idItem": 4543,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20158,
+                "idBodega": 2,
+                "idItem": 4543,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30013,
+                "idBodega": 3,
+                "idItem": 4543,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 1,
+                "stockFraccion": 0,
+                "stockActual": 1,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39868,
+                "idBodega": 4,
+                "idItem": 4543,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 7901,
+        "descripcion": "MP ZCHOCOL URBAN LOCION REFx250ML",
+        "codBarra": "7862118732166",
+        "precio": 6.7768,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 325,
+                "idBodega": 1,
+                "idItem": 7901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 20159,
+                "idBodega": 2,
+                "idItem": 7901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 30014,
+                "idBodega": 3,
+                "idItem": 7901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 39869,
+                "idBodega": 4,
+                "idItem": 7901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            }
+        ]
+    },
+    {
+        "idItem": 9901,
+        "descripcion": "SS1 ECI BARBER SHAVING GEL 3EN1",
+        "codBarra": "8699009449105",
+        "precio": 6.4845,
+        "tipoItem": "P",
+        "aplicaIva": "S",
+        "itemXBodega": [
+            {
+                "idItemBodega": 207249,
+                "idBodega": 1,
+                "idItem": 9901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 2,
+                "stockFraccion": 0,
+                "stockActual": 2,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 208876,
+                "idBodega": 3,
+                "idItem": 9901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 210301,
+                "idBodega": 2,
+                "idItem": 9901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 0,
+                "cantidadIngresada": 0
+            },
+            {
+                "idItemBodega": 210573,
+                "idBodega": 4,
+                "idItem": 9901,
+                "idEstadoItem": 1,
+                "habilitado": "S",
+                "stockUnidad": 0,
+                "stockFraccion": 0,
+                "stockActual": 0,
+                "ventaMes": 1,
+                "cantidadIngresada": 0
+            }
+        ]
+    }
+]
