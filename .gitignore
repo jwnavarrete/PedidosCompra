@@ -5,6 +5,17 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+/backend/app.neptuno.api/obj/
+/backend/app.neptuno.api/bin/
+/backend/app.neptuno.business/obj/
+/backend/app.neptuno.business/bin/
+/backend/app.neptuno.dto/obj/
+/backend/app.neptuno.dto/bin/
+/backend/app.neptuno.models/bin/
+/backend/app.neptuno.models/bin/
+/backend/app.neptuno.data/bin/
+/backend/app.neptuno.data/bin/
+
 # User-specific files
 /backend/*.rsuser
 /backend/*.suo
