@@ -1,3 +1,24 @@
+[
+  {
+    "codigo": 1,
+    "descripcion": "prueba",
+    "children": [
+      {
+        "codigo": 2,
+        "descripcion": "demo",
+        "bodegas": [
+          {
+            "codigo": "BOD1",
+            "nombre": "BODEGA 1"
+          },
+          {
+            "codigo": "BOD2",
+            "nombre": "BODEGA 2"
+          }
+        ]
+      }
+    ]
+  },
 {
     "idNodoClasif1": 269,
     "codigo": "02000000",
@@ -51,3 +72,4 @@
       }
     ]
   }
+]

@@ -9,6 +9,7 @@ import LaboratorioSearch from "@/components/LaboratorioSearch";
 import BodegaSearch from "@/components/BodegaSearch";
 import LineaItemSearch from "@/components/LineaItemSearch";
 import InputDate from "@/components/InputDate";
+import TreeViewBodegas from "@/components/TreeViewBodegas";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -34,6 +35,9 @@ export default function SearchData() {
         </Grid>
         <Grid item xs={6}>
           <BodegaSearch />
+        </Grid>
+        <Grid item xs={6}>
+          <TreeViewBodegas />
         </Grid>
         <Grid item xs={6} md={3}>
           <InputDate />
