@@ -30,7 +30,8 @@ const TreeNodeSelect = ({ data, onChange }) => {
         aria-label="file system navigator"
         defaultCollapseIcon={<BiChevronDown />}
         defaultExpandIcon={<BiChevronRight />}
-        sx={{ height: 240, flexGrow: 1, maxWidth: 400, overflowY: "auto" }}
+        sx={{ height: 240, flexGrow: 1, overflowY: "auto" }}
+
       >
         {renderTreeItem(data)}
       </TreeView>      

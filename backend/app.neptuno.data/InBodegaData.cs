@@ -28,7 +28,8 @@ namespace app.neptuno.data
                             Codigo = q.codigo,
                             Nombre = q.nombre,
                             Activo = q.activo,
-                            NombreCompleto = "[" + q.codigo + "] - " + q.nombre
+                            NombreCompleto = "[" + q.codigo + "] - " + q.nombre,
+                            IdGrupoBodega = q.id_grupo_bodega
                         };
 
             return await query.ToListAsync();
@@ -46,13 +47,11 @@ namespace app.neptuno.data
                             Codigo = q.codigo,
                             Nombre = q.nombre,
                             Activo = q.activo,
-                            NombreCompleto = "[" + q.codigo + "] - " + q.nombre
+                            NombreCompleto = "[" + q.codigo + "] - " + q.nombre,
+                            IdGrupoBodega = q.id_grupo_bodega
                         };
 
             return await query.FirstAsync();
         }
-
-
-        // consultar una bodega por codigo
     }
 }

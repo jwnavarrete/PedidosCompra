@@ -14,6 +14,7 @@ namespace app.neptuno.dto
         public string Nombre { get; set; } = "";
         public string Activo { get; set; } = "";
         public string? NombreCompleto { get; set; }
+        public int IdGrupoBodega { get; set; }
 
     }
 }

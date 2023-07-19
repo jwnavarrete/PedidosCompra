@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using app.neptuno.dto;
 
 namespace app.neptuno.data
 {
@@ -18,15 +19,37 @@ namespace app.neptuno.data
         }
 
         // consultar
-        public async Task<List<InGrupoBodega>> GetAll()
+        public async Task<List<InGrupoBodegaDTO>> GetAll()
         {
-            return await context.GrupoBodega.ToListAsync();
+            var query = from q in this.context.GrupoBodega 
+            select new InGrupoBodegaDTO {
+                IdGrupoBodega = q.id_grupo_bodega,
+                Codigo = q.codigo,
+                Descripcion = q.descripcion,
+                IdPadre = q.id_padre,
+                Nivel = q.nivel,
+                Activo = q.activo
+            };
+            
+            return await query.ToListAsync();
         }
 
-        // consultar por marca
-        public async Task<InGrupoBodega> GetById(int IdGrupoBodega)
+        // consultar por id
+        public async Task<InGrupoBodegaDTO> GetById(int IdGrupoBodega)
         {
-            return await context.GrupoBodega.Where(q => q.id_grupo_bodega == IdGrupoBodega).FirstAsync();
+            var query = from q in this.context.GrupoBodega 
+            where q.id_grupo_bodega == IdGrupoBodega
+            select new InGrupoBodegaDTO {
+                IdGrupoBodega = q.id_grupo_bodega,
+                Codigo = q.codigo,
+                Descripcion = q.descripcion,
+                IdPadre = q.id_padre,
+                Nivel = q.nivel,
+                Activo = q.activo
+            };
+            
+            return await query.FirstAsync();        
+
         }
     }
 }
