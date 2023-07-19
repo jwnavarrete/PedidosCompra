@@ -5,6 +5,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+.vscode
+
 backend/app.neptuno.api/obj/
 backend/app.neptuno.api/bin/
 backend/app.neptuno.business/obj/
