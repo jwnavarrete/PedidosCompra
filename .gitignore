@@ -23,6 +23,8 @@ backend/app.neptuno.data/bin/
 /backend/*.userosscache
 /backend/*.sln.docstates
 
+/backend/app.neptuno.api/PedidosCompraApi/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 /backend/*.userprefs
 
