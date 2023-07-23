@@ -17,41 +17,7 @@ import Paper from "@mui/material/Paper";
 // import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { AiOutlineArrowUp, AiOutlineArrowDown } from "react-icons/ai";
 
-import itemsData from './items.json';
-
-const getData = async (data) => {
-  const res = await fetch("http://localhost:7042/api/Item", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
-  return res.json();
-};
-
-function createData(name, calories, fat, carbs, protein, price) {
-  return {
-    name,
-    calories,
-    fat,
-    carbs,
-    protein,
-    price,
-    history: [
-      {
-        date: "2020-01-05",
-        customerId: "11091700",
-        amount: 3,
-      },
-      {
-        date: "2020-01-02",
-        customerId: "Anonymous",
-        amount: 1,
-      },
-    ],
-  };
-}
+import api from '@/api/api';
 
 function Row(props) {
   const { row } = props;
@@ -95,7 +61,7 @@ function Row(props) {
                 </TableHead>
                 <TableBody>
                   {row.itemXBodega.map((itemXBodega) => (
-                    <TableRow key={itemXBodega.IdBodega}>
+                    <TableRow key={`${row.idItem}-${itemXBodega.idBodega}`}>
                       <TableCell component="th" scope="row">
                         {itemXBodega?.bodega?.nombre}
                       </TableCell>
@@ -127,36 +93,30 @@ Row.propTypes = {
         ventaMes: PropTypes.number.isRequired,
         cantidadIngresada: PropTypes.number.isRequired,
       })
-    ).isRequired,
+    ),
     precio: PropTypes.number.isRequired,
     tipoItem: PropTypes.string.isRequired,
     aplicaIva: PropTypes.string.isRequired,
   }).isRequired,
 };
 
-// const rows = [
-//   createData("Frozen yoghurt", 159, 6.0, 24, 4.0, 3.99),
-//   createData("Ice cream sandwich", 237, 9.0, 37, 4.3, 4.99),
-//   createData("Eclair", 262, 16.0, 24, 6.0, 3.79),
-//   createData("Cupcake", 305, 3.7, 67, 4.3, 2.5),
-//   createData("Gingerbread", 356, 16.0, 49, 3.9, 1.5),
-// ];
 
 export default function TableData() {
   const [rows, setRows] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      // const result = await getData({
-      //   fechaInicio: "2023-06-01",
-      //   fechaFin: "2023-06-15",
-      //   idClasif1: 12,
-      //   bodegas: [1, 2, 3, 4],
-      // });
+      const params = {
+        "fechaIni": "2023-06-01",
+        "fechaFin": "2023-06-30",
+        "idClasif1": 12,
+        "bodegas": [
+          1, 2, 3
+        ]
+      }
 
-      // setRows(result);
-
-      setRows(itemsData);
+      const result = await api.getItems(params);
+      setRows(result);
     };
 
     fetchData();

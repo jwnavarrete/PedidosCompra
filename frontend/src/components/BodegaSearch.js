@@ -1,124 +1,96 @@
 import React, { useState, useEffect } from "react";
-import { useTheme } from "@mui/material/styles";
-import {
-  OutlinedInput,
-  InputLabel,
-  MenuItem,
-  FormControl,
-  Select,
-  Checkbox,
-  TextField,
-  Autocomplete,
-} from "@mui/material";
+import api from "@/api/api";
+import { List, ListItemButton, ListItem, ListItemText, Checkbox, Button, Collapse, Stack } from "@mui/material";
+import ExpandLess from '@mui/icons-material/ExpandLess';
+import ExpandMore from '@mui/icons-material/ExpandMore';
 
-// icons
-import { GrCheckbox, GrCheckboxSelected } from "react-icons/gr";
-// import { TbCheckbox } from "react-icons/tb";
+const BodegaSearch = ({ onClose, onSave }) => {
+    const [data, setData] = useState([]);
+    const [selectedBodegas, setSelectedBodegas] = useState([]);
+    const [expandedGroups, setExpandedGroups] = useState({});
 
-import bodegasData from "./bodegas.json";
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await api.getBodegas();
+            setData(result);
+        };
 
-const icon = <GrCheckbox fontSize="small" />;
-const checkedIcon = <GrCheckboxSelected fontSize="small" />;
+        fetchData();
+    }, []);
 
-const ITEM_HEIGHT = 48;
-const ITEM_PADDING_TOP = 8;
-const MenuProps = {
-  PaperProps: {
-    style: {
-      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: 250,
-    },
-  },
-};
-
-function getStyles(name, bodegaName, theme) {
-  return {
-    fontWeight:
-      bodegaName.indexOf(name) === -1
-        ? theme.typography.fontWeightRegular
-        : theme.typography.fontWeightMedium,
-  };
-}
-
-const getData = async () => {
-  const res = await fetch("http://localhost:7042/api/Bodega");
-  return res.json();
-};
-
-export default function BodegaSearch() {
-  const theme = useTheme();
-  const [bodegaName, setBodegaName] = React.useState([]);
-
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      // const result = await getData();
-      // setData(result);
-
-      setData(bodegasData);
+    const handleBodegaChange = (event, bodegaId) => {
+        if (event.target.checked) {
+            setSelectedBodegas((prevSelected) => [...prevSelected, bodegaId]);
+        } else {
+            setSelectedBodegas((prevSelected) =>
+                prevSelected.filter((id) => id !== bodegaId)
+            );
+        }
     };
 
-    fetchData();
-  }, []);
+    const handleGroupClick = (groupId) => {
+        setExpandedGroups((prevExpanded) => ({
+            ...prevExpanded,
+            [groupId]: !prevExpanded[groupId]
+        }));
+    };
 
-  const handleChange = (event) => {
-    const {
-      target: { value },
-    } = event;
+    const handleSave = () => {
+        onSave(selectedBodegas);
+        onClose();
+    };
 
-    setBodegaName(
-      // On autofill we get a stringified value.
-      typeof value === "string" ? value.split(",") : value
-    );
-  };
-
-  return (
-    <>
-      <Autocomplete
-        multiple
-        id="checkboxes-tags-demo"
-        options={data}
-        disableCloseOnSelect
-        getOptionLabel={(option) => option.codigo}
-        renderOption={(props, option, { selected }) => (
-          <li {...props}>
-            <Checkbox
-              icon={icon}
-              checkedIcon={checkedIcon}
-              style={{ marginRight: 8 }}
-              checked={selected}
-            />
-            {option.nombreCompleto}
-          </li>
-        )}
-        style={{ width: 500 }}
-        renderInput={(params) => (
-          <TextField {...params} label="Bodegas" placeholder="Favorites" />
-        )}
-      />
-      {/* <FormControl fullWidth>
-        <InputLabel id="demo-multiple-name-label">Bodega</InputLabel>
-        <Select
-          labelId="demo-multiple-name-label"
-          id="demo-multiple-name"
-          multiple
-          value={bodegaName}
-          onChange={handleChange}
-          input={<OutlinedInput label="Bodega" />}
-          MenuProps={MenuProps}
-        >
-          {data.map(({ idBodega, nombreCompleto }) => (
-            <MenuItem
-              key={idBodega}
-              value={idBodega}
-              style={getStyles(nombreCompleto, bodegaName, theme)}
+    const renderBodegas = (bodegas) => {
+        return bodegas.map((bodega) => (
+            <ListItem
+                key={bodega.idBodega}
+                disableGutters
+                // style={{
+                //     paddingLeft: "5px",
+                //     marginBottom: "0", // Espacio entre elementos de la lista desplegable
+                // }}
+                disablePadding
             >
-              {nombreCompleto}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl> */}
-    </>
-  );
-}
+                <Checkbox
+                    edge="start"
+                    onChange={(event) => handleBodegaChange(event, bodega.idBodega)}
+                    checked={selectedBodegas.includes(bodega.idBodega)}
+                />
+                <ListItemText primary={`${bodega.codigo} - ${bodega.nombre}`} />
+            </ListItem>
+        ));
+    };
+    const renderChildren = (children) => {
+        return children.map((grupoBodega) => (
+            <li key={grupoBodega.idGrupoBodega}>
+                <span onClick={() => handleGroupClick(grupoBodega.idGrupoBodega)} style={{ display: 'flex', flexDirection: 'row' }}>
+                    {expandedGroups[grupoBodega.idGrupoBodega] ? <ExpandLess /> : <ExpandMore />}
+                    {grupoBodega.descripcion}
+                </span>
+                <Collapse in={expandedGroups[grupoBodega.idGrupoBodega]}>
+                    {grupoBodega.bodegas.length > 0 && (
+                        <List>{renderBodegas(grupoBodega.bodegas)}</List>
+                    )}
+                    {grupoBodega.children.length > 0 && (
+                        <List>{renderChildren(grupoBodega.children)}</List>
+                    )}
+                </Collapse>
+            </li>
+        ));
+    };
+
+    return (
+        <div className="modal">
+            <div className="modal-content">
+                <h2>Consulta de Bodegas</h2>
+                <List>{renderChildren(data)}</List>
+                <Stack spacing={2} direction="row">
+                    <Button variant="contained" color="primary" onClick={handleSave}>Seleccionar</Button>
+                    <Button variant="contained" color="secondary" onClick={onClose}>Cerrar</Button>
+                </Stack>
+            </div>
+        </div>
+    );
+};
+
+export default BodegaSearch;

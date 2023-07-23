@@ -18,7 +18,7 @@ namespace app.neptuno.data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("server=FCHAVEZPC\\NEPTUNO;database=NeptunoImpSelectas;user=sa;password=Master1;TrustServerCertificate=true;Encrypt=True;", builder =>
+            optionsBuilder.UseSqlServer("server=localhost;database=neptuno;user=sa;password=M1n0T4ur0;TrustServerCertificate=true;Encrypt=True;", builder =>
                 {
                     builder.EnableRetryOnFailure();
                     builder.CommandTimeout(tiempo_de_espera_en_segundos);

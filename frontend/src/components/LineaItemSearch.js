@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
 
-import lineasData from "./lineas_nodos.json";
-import TreeNodeSelect from "./TreeNodeSelect";
+import TreeViewLinea from "./TreeViewLinea";
 
-const getData = async () => {
-  const res = await fetch("http://localhost:7042/api/Linea");
-  return res.json();
-};
+import api from '@/api/api'
 
 export default function LineaItemSearch() {
   const [selectedNode, setSelectedNode] = useState(null);
@@ -15,10 +11,8 @@ export default function LineaItemSearch() {
 
   useEffect(() => {
     const fetchData = async () => {
-      // const result = await getData();
-      // setData(result);
-
-      setData(lineasData);
+      const result = await api.getLineas();
+      setData(result);      
     };
 
     fetchData();
@@ -39,14 +33,8 @@ export default function LineaItemSearch() {
           label="Linea"
           // onChange={handleChange}
         >
-          <TreeNodeSelect data={data} onChange={handleChange} />
-          {selectedNode && <p>Node seleccionado: {selectedNode}</p>}
-
-          {/* {data.map(({ idProveedor, nombreCompleto }) => (
-          <MenuItem key={idProveedor} value={idProveedor}>
-            {nombreCompleto}
-          </MenuItem>
-        ))} */}
+          <TreeViewLinea data={data} onChange={handleChange} />
+          {selectedNode && <p>Node seleccionado: {selectedNode}</p>}         
         </Select>
       </FormControl>
     </>

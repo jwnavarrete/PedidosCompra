@@ -10,7 +10,7 @@ import {  TreeView, TreeItem } from '@mui/lab';
 
 import { BiChevronRight, BiChevronDown } from "react-icons/bi";
 
-const TreeNodeSelect = ({ data, onChange }) => {
+const TreeViewLinea = ({ data, onChange }) => {
   const renderTreeItem = (nodes) => {
     return nodes.map((node) => (
       <TreeItem
@@ -31,7 +31,6 @@ const TreeNodeSelect = ({ data, onChange }) => {
         defaultCollapseIcon={<BiChevronDown />}
         defaultExpandIcon={<BiChevronRight />}
         sx={{ height: 240, flexGrow: 1, overflowY: "auto" }}
-
       >
         {renderTreeItem(data)}
       </TreeView>      
@@ -39,4 +38,4 @@ const TreeNodeSelect = ({ data, onChange }) => {
   );
 };
 
-export default TreeNodeSelect;
+export default TreeViewLinea;

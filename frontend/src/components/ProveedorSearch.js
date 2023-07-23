@@ -1,19 +1,10 @@
 import React, { useEffect, useState } from "react";
-import {
-  FormControl,
-  InputLabel,
-  Select,
-  MenuItem,
+import {  
   TextField,
   Autocomplete,
 } from "@mui/material";
 
-import proveedoresData from "./proveedores.json";
-
-const getProveedores = async () => {
-  const res = await fetch("http://localhost:7042/api/Proveedor");
-  return res.json();
-};
+import api from "@/api/api"; 
 
 export default function ProveedorSearch() {
   const [proveedor, setProveedor] = useState([]);
@@ -21,10 +12,8 @@ export default function ProveedorSearch() {
 
   useEffect(() => {
     const fetchData = async () => {
-      // const result = await getProveedores();
-      // setData(result);
-
-      setData(proveedoresData);
+      const result = await api.getProveedores();
+      setData(result);
     };
 
     fetchData();
@@ -41,7 +30,7 @@ export default function ProveedorSearch() {
         id="combo-box-demo"
         options={data}
         getOptionLabel={(option) => option.nombreCompleto}
-        renderInput={(params) => <TextField {...params} label="Movie" />}
+        renderInput={(params) => <TextField {...params} label="Proveedor" />}
       />
     </>
   );
