@@ -1,0 +1,44 @@
+version: "3.9"
+services:
+  # SQL Server
+  sqlserver_db:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    container_name: sqlserver_db
+    environment:
+      SA_PASSWORD: M1n0T4ur0
+      ACCEPT_EULA: Y
+    ports:
+      - "1433:1433"
+    networks:
+      - purchase_network
+
+  # Node.js con Next.js
+  node_app:
+    container_name: node_app
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:3000"
+    networks:
+      - purchase_network
+
+  # .NET SDK 6
+  dotnet_app:
+    container_name: dotnet_app
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: bash -c "cd app.neptuno.api && dotnet watch run"
+    volumes:
+    - ./backend:/app
+    ports:
+      - "7041:7041"
+    networks:
+      - purchase_network
+
+networks:
+  purchase_network:
+    driver: bridge
